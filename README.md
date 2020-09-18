@@ -136,7 +136,7 @@ This is the main interface of the application. When the user opens the applicati
 </p>
 
 <p>
-<img src="home.png" widht="450" height="800">
+<img src="home.png" widht="225" height="400">
 </p>
 
 <p>
@@ -202,7 +202,7 @@ View the categories of the recipes that have been favorited, and you can remove 
 </p>
 
 <p>
-<img src="favourite.png" widht="407" height="720">
+<img src="favourite.png" widht="225" height="400">
 </p>
 
 <p>
