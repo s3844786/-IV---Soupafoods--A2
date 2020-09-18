@@ -1,3 +1,5 @@
+# -IV---Soupafoods--A2
+
 <h2>Your Pantry</h2>
 
 <p>
@@ -34,14 +36,37 @@ When Tom saw our app, he wanted to give it a try, downloaded it and registered i
 
 <p>
 As a user, I want to be able to buy food online so I can save time in the supermarket
+</p>
 
+<p>
 The user opens the "Your Pantry" interface with online shopping,
+</p>
+
+<p>
 The system will apply for permission from the user, and the user needs to allow the app to use the GPS positioning function
+</p>
+
+<p>
 The app will confirm the user’s location,
+</p>
+
+<p>
 Search for nearby supermarkets,
+</p>
+
+<p>
 And connect to the supermarket’s network to get product information and prices,
+</p>
+
+<p>
 The user browses the product list and selects the product to be purchased to join "Your Pantry"
+</p>
+
+<p>
 Click the "Buy" button in the upper right corner to place an order
+</p>
+
+<p>
 Complete the purchase
 </p>
 
@@ -50,14 +75,41 @@ Complete the purchase
 
 <p>
 As a user, I hope that online shopping can be realized through a certain software, and every consumption information can be automatically recorded
+</p>
+
+<p>
 The user downloads and registers the software, the system requests the use of GPS function, the user needs to agree to the request
+</p>
+
+<p>
 The system page displays nearby supermarkets and displays all product information
+</p>
+
+<p>
 The user selects the desired food/product
+</p>
+
+<p>
 Complete the purchase
+</p>
+
+<p>
 Waiting for the delivery person to deliver
+</p>
+
+<p>
 The system will automatically make a statement, and upload the detailed information of this consumption to "Recording"
+</p>
+
+<p>
 Users can view it on the "Your Pantry" interface
+</p>
+
+<p>
 User can choose whether to record or upload to the cloud
+</p>
+
+<p>
 Function completed
 </p>
 
@@ -84,7 +136,7 @@ This is the main interface of the application. When the user opens the applicati
 </p>
 
 <p>
-<img src="home.png" widht="450" height="800">
+<img src="home.png" widht="225" height="400">
 </p>
 
 <p>
@@ -92,7 +144,7 @@ The user uses the "Your Pantry" function, which includes "shopping cart" and "re
 </p>
 
 <p>
-<img src="Your Pantry.png" widht="450" height="800">
+<img src="Your Pantry.png" widht="225" height="400">
 </p>
 
 <p>
@@ -102,7 +154,7 @@ Click the "Buy" button in the upper right corner, and the food selected in "Your
 </p>
 
 <p>
-<img src="shopping.png" widht="450" height="800">
+<img src="shopping.png" widht="225" height="400">
 </p>
 
 <p>
@@ -110,7 +162,7 @@ After the purchase is successful, click the "Confirm" button to return to the "Y
 </p>
 
 <p>
-<img src="buy.png" widht="450" height="800">
+<img src="buy.png" widht="225" height="400">
 </p>
 
 <p>
@@ -118,7 +170,7 @@ After the purchase is successful, click the "Confirm" button to return to the "Y
 </p>
 
 <p>
-<img src="recording1.png" widht="450" height="800">
+<img src="recording1.png" widht="225" height="400">
 </p>
 
 <p>
@@ -126,7 +178,7 @@ On the "recording" page, users can directly enter the time through the search bo
 </p>
 
 <p>
-<img src="recording2.png" widht="450" height="800">
+<img src="recording2.png" widht="225" height="400">
 </p>
 
 <p>
@@ -134,7 +186,7 @@ Locate "19/08" to accurately check the purchase details of the day.
 </p>
 
 <p>
-<img src="recording3.png" widht="450" height="800">
+<img src="recording3.png" widht="225" height=400">
 </p>
 
 <p>
@@ -142,7 +194,7 @@ On the user's personal information page, the user can customize the avatar, back
 </p>
 
 <p>
-<img src="profile.png" widht="450" height="800">
+<img src="profile.png" widht="225" height="400">
 </p>
 
 <p>
@@ -150,7 +202,7 @@ View the categories of the recipes that have been favorited, and you can remove 
 </p>
 
 <p>
-<img src="favourite.png" widht="407" height="720">
+<img src="favourite.png" widht="225" height="400">
 </p>
 
 <p>
