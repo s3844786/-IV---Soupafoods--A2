@@ -76,5 +76,89 @@ Function completed
 <h3>Design Diagrams</h3>
 
 <p>
-
+<img src="all.png" widht="600" height="540">
 </p>
+
+<p>
+This is the main interface of the application. When the user opens the application, this screen will appear. We display six main functions in the main interface, and the user can directly click to access. At the bottom, we also added recent system messages, including recent consumption records, food shelf life, etc. Users can also access their personal information interface and operate with a high degree of freedom.
+</p>
+
+<p>
+<img src="home.png" widht="450" height="800">
+</p>
+
+<p>
+The user uses the "Your Pantry" function, which includes "shopping cart" and "recording".
+</p>
+
+<p>
+<img src="Your Pantry.png" widht="450" height="800">
+</p>
+
+<p>
+"Shopping cart" means that the application will search for nearby supermarkets, match it online, and display the latest price information of the product/food. Users can directly select the food they want on this interface and then buy it.
+
+Click the "Buy" button in the upper right corner, and the food selected in "Your Pantry" will be purchased.
+</p>
+
+<p>
+<img src="shopping.png" widht="450" height="800">
+</p>
+
+<p>
+After the purchase is successful, click the "Confirm" button to return to the "Your Pantry" main interface.
+</p>
+
+<p>
+<img src="buy.png" widht="450" height="800">
+</p>
+
+<p>
+"Recording" can record all shopping records of users in the past year, detailed dates, product types and prices. Upload through the cloud to protect user privacy. The user can also manually add or delete, or even close the "recording", all choices are left to the user.
+</p>
+
+<p>
+<img src="recording1.png" widht="450" height="800">
+</p>
+
+<p>
+On the "recording" page, users can directly enter the time through the search box at the top, such as "19/08", and then they can accurately find the records purchased through "Your Pantry" or manually uploaded on that day.
+</p>
+
+<p>
+<img src="recording2.png" widht="450" height="800">
+</p>
+
+<p>
+Locate "19/08" to accurately check the purchase details of the day.
+</p>
+
+<p>
+<img src="recording3.png" widht="450" height="800">
+</p>
+
+<p>
+On the user's personal information page, the user can customize the avatar, background image, and personality label. The system lists the shortcut buttons of "Recipes", "Favorites", and "Promo". The user can click to enter and select operations. Everything is done in one step.
+</p>
+
+<p>
+<img src="profile.png" widht="450" height="800">
+</p>
+
+<p>
+View the categories of the recipes that have been favorited, and you can remove or add to favorites on this operation page.
+</p>
+
+<p>
+<img src="favourite.png" widht="407" height="720">
+</p>
+
+<p>
+Check out the recipes previously added to the collection. The recipes describe the production steps and process in detail.
+</p>
+
+<p>
+<img src="Recipe.png" widht="237" height="702">
+</p>
+
+
