@@ -30,7 +30,7 @@ It’s Tuesday evening, Jason’s birthday is coming soon and he needs to prepar
 <p>This is the main page for the “Shopping list” function, as you can see there is a search bar on the top, it’s for users to quickly find the list they look for. In this main page I provide two lists “My Grocery List”(an empty one as you can see “No item” under it) and “Test List”(3 items included). Additional users can create a new list by clicking “create a new list”.</p>
 
 <p>
-<img src="mainpage.png" widht="600" height="540">
+<img src="mainpage.PNG" widht="600" height="540">
 </p>
 <p>
 In this list example, users can click “Add Item” to go to the “add items” page, and they can also edit existing items. And finally they can share this list to their friends or family members.
