@@ -23,6 +23,50 @@ It’s Tuesday evening, Jason’s birthday is coming soon and he needs to prepar
 
 <h2>Design Diagrams:<h2>
 
+<p>
+<img src="shoppinglist.png" widht="600" height="540">
+</p>
+
+<p>This is the main page for the “Shopping list” function, as you can see there is a search bar on the top, it’s for users to quickly find the list they look for. In this main page I provide two lists “My Grocery List”(an empty one as you can see “No item” under it) and “Test List”(3 items included). Additional users can create a new list by clicking “create a new list”.</p>
+
+<p>
+<img src="mainpage.png" widht="600" height="540">
+</p>
+<p>
+In this list example, users can click “Add Item” to go to the “add items” page, and they can also edit existing items. And finally they can share this list to their friends or family members.
+</p>
+<p>
+<img src="listexample.png" widht="600" height="540">
+</p>
+<p>
+This “Add items” page is where users find more items and add them to their list, users can also search the items they are looking for in the search bar and create new items according to their own needs.
+<p>
+<p>
+<img src="additems.png" widht="600" height="540">
+</p>
+<p>These three item details pages provide detailed information about the items that users plan to add to their shopping list.That includes the category of the item, the quantity,package size, price and finally which stores users are going to. In addition users can also click the star to add the item to their favorite items.</p>
+<p>
+<img src="itemdetail1.png" widht="600" height="540"><img src="itemdetail2,3.png" widht="600" height="540">
+</p>
+<p>In the page of “create list” users can name their lists and select the type of the list.In the next page “share list” users can select the type of sharing lists and then share the list.</p>
+
+<p>
+<img src="share.png" widht="600" height="540">
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
