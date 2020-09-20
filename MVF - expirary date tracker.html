@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minimal Viable Feature (MVF) - Expirary Date Tracker</title>
+</head>
+    
+<body>
+    <h2>Minimal Viable Feature (MVF) - Expirary Date Tracker</h2> <hr>
+    <!-- Navgiation panel -->
+    <h3>Navigation</h3>
+    <div>
+        <ul>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#userstory">User Stories + Validation criteria</a></li>
+            <li><a href="#diagram">Diagram designs</a></li>
+            <li><a href="#figma">Figma design/demo</a></li>
+        </ul>
+    </div> <hr>
+    <!-- Introduction -->
+    <h3 id="intro">Introduction</h3>
+    <p>The best way to implement the expiration date tracker would be to have the user enter the date the food expires which would then be stored next to the food item in the users &ldquo;Your Pantry&rdquo; tab within the application. While having the user manually enter the expiration date for each food item they purchase is tedious and time consuming it is the only way for the app to get the required information from the user.</p>
+    <p>Once the date has been entered it is put into a database as well as the user id of the person who entered it and then once a day the database will be scanned through until it finds a date that is 7 day or less from the current date, where it will then send an alert to the users phone about a item that is soon to expire. Or if it sees an item that has expired then it will also send the user an alert and mark the item red on the Your Pantry tab and display a warning box when the user clicks on it.</p>
+    <p>While user satisfaction is a important part of our application there is nothing that can be done to ease the annoyance of having to repeatedly type in the use by date as the barcode does not contain the use by date for items the only place that information is stored is the store database and there is no way for the &ldquo;Soupafoods&rdquo; app to access that information.</p>
+    <img src="https://raw.githubusercontent.com/s3844786/-IV---Soupafoods--A2/Callum/Assignment_2/LucidChartIdea.PNG" alt="diagram1.jpg" target="_blank">
+    <p>This is a basic mockup of what it might look like when the app detects that a food item will expire soon. The app sends a notification to the phone informing the user of the fact that an item will expire soon. We do not use the items name in the notification if the item has a long name it could cause the fact the item is expiring to go off the notification which could cause confusion about what the alert is about and why it was sent. If the app instead detected an item that had expired it would instead send a notification about the expired item as that will take priority over other notifications.</p>
+    <img src="https://raw.githubusercontent.com/s3844786/-IV---Soupafoods--A2/Callum/Assignment_2/LucidChartIdea2.PNG" alt="diagram2.jpg" target="_blank">
+    <p>Another basic mockup showing what might happen to the Your Pantry page when items are close to or expired. When items are close to expiring &lt;7 days they will turn from green to a yellow colour and when they have expired they will turn red.&nbsp;</p>
+    <p>The use of green, yellow and red is intentional as it indicates three levels of something decreasing in quality from good to bad. This easy and quick ability to see if an item is okay to use at a glance will make it easier for the user to use the app and provide quick and useful information thus increasing user satisfaction as it gives feedback to the user. If needed the user can tap on the yellow items to get an exact date for when the food will expire.</p>
+    <!-- User story + Validation criteria -->
+    <h3 id="userstory">User story + Validation criteria</h3>
+    <p>As a regular app user.</p>
+    <p>I want to find out if the food I have will expire soon.</p>
+    <p>So that I can buy food if needed.</p>
+    <p>Given that I am in the position of a user of the app.</p>
+    <p>Given that food is close to expiring a alert will appear on the app homepage</p>
+    <p>When I open the your pantry option on the app it will display the food in the pantry</p>
+    <p>Any food that has expired or is close to expiring will be near at the top of the list.</p>
+    <p>If food has expired it will have a red background indicating that it is expired.</p>
+    <p>I know what food I need to buy.</p>
+    <p>Daniel is a user who wants to make something homemade for dinner but he does not know what to make. Daniel is very environmentally conscious and hates wasting food, in order to ensure he has what he needs to make dinner tonight he will need to check what food he has that will expire soon and see what meals he can make with that.</p>
+    <p>From here Daniel opens his pantry app &ldquo;Soupafood&rdquo; to check what he has at home. From the welcoming home page of the app he taps on the expiration date tab so he can check what food he has that is nearing expiration. From here Daniel sees he has a chicken breast that will expire within the week.</p>
+    <p>Daniel now knowing that he has a chicken breast to cook with he is able to use the app to search for recipes that contain a chicken breast he finds a meal that suits his interests easily and is able to purchase the remaining ingredients for the meal quickly.</p>
+    <p>As a regular app user.</p>
+    <p>I want to find out what food is close to expiring.</p>
+    <p>So that I ensure the health of people..</p>
+    <p>Clara is a single mother who is responsible for feeding her 3 children by herself so she does not have the time to remember all the dates of expiration for the food she buys.</p>
+    <p>To help her with this Clara has downloaded the Soupafoods app in order to help her keep track of dates. By entering that date of food expiration for the food that she has bought Clara receives an alert for food that is close to expiring and so is able to rest easy that the food she has is ok for her children to eat.</p>
+    <!-- Design diagram -->
+    <h3 id="diagram">Design diagram</h3>
+    <p>After adding an item to their pantry. Users are able to add expiration dates to the food that they have added. Any item can be added and the date format can be switched in settings if the user chooses.</p>
+    <img src="https://raw.githubusercontent.com/s3844786/-IV---Soupafoods--A2/Callum/Assignment_2/ExpirationDateTracker.PNG" alt="design1.jpg" target="_blank">
+    <p>The user will have to manually add the dates for food that they have purchased and while this may be annoying it is the only option we have.</p>
+    <img src="https://raw.githubusercontent.com/s3844786/-IV---Soupafoods--A2/Callum/Assignment_2/ExpirationDateTracker2.PNG" alt="design2.jpg" target="_blank">
+    <p>When an item becomes expired or is within a week of expiring a notification will be sent to the user's phone and within the app itself.</p>
+    <p>When a notification appears it will show in the notification section and a red dot will will appear on the expiration date button showing the user that something needs their attention</p>
+    <img src="https://raw.githubusercontent.com/s3844786/-IV---Soupafoods--A2/Callum/Assignment_2/ExpirationDateTracker3.PNG" alt="design3.jpg" target="_blank">
+    <p>As seen below the app will highlight expired food red which will help the user clearly identify items which have expiration and should not be eaten.</p>
+    <p>The items are separated by date of expiration and are normally sorted alphabetically however expired items take precedence and will go to the top of their respective section.</p>
+    <img src="https://raw.githubusercontent.com/s3844786/-IV---Soupafoods--A2/Callum/Assignment_2/ExpiraionDateTracker4.PNG" alt="design4.jpg" target="_blank">
+    <!-- Quick links to figma -->
+    <h3 id="figma">Links to figma designs/demo</h3>
+    <p>Link to figma <a href="https://www.figma.com/file/nO6F4QFKx5JX9fT7g69U7S/Soupafoods-MFV-Expiration-Date-Tracker?node-id=0%3A1" target="_blank">Expiration date tracker section design</a></p>
+    <p>Link to <a href="https://www.figma.com/proto/nO6F4QFKx5JX9fT7g69U7S/Soupafoods-MFV-Expiration-Date-Tracker?node-id=1%3A2&scaling=min-zoom" target="_blank">Expiration date tracker section demo</a></p>
+    <p>Link to <a hred="https://www.figma.com/proto/TQzZm1VFk5KIyC9uxEiRxc/soupafoods?node-id=1%3A1579&scaling=min-zoom" target="_blank">Soupafoods application interaction demo</a></p>
+
+</body>
+    
+</html>
